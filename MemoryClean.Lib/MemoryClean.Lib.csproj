@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+	<DebugType>none</DebugType>
+	<Platforms>ARM64</Platforms>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<PlatformTarget>ARM64</PlatformTarget>
+	<UseWindowsForms>true</UseWindowsForms>
+	<TargetFramework>net6.0-windows</TargetFramework>
+	<Authors>michael_eddy</Authors>
+	<Company>michael_eddy</Company>
+  </PropertyGroup>
+</Project>

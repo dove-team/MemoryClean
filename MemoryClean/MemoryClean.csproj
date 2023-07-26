@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+	<DebugType>none</DebugType>
+	<Platforms>ARM64</Platforms>
+	<OutputType>WinExe</OutputType>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<ApplicationIcon>app.ico</ApplicationIcon>
+	<PlatformTarget>ARM64</PlatformTarget>
+	<UseWindowsForms>true</UseWindowsForms>
+	<TargetFramework>net6.0-windows</TargetFramework>
+	<Authors>michael_eddy</Authors>
+	<Company>michael_eddy</Company>
+  </PropertyGroup>
+  <ItemGroup>
+	<Content Include="app.ico" />
+	<None Include="..\.editorconfig" Link=".editorconfig" />
+    <ProjectReference Include="..\MemoryClean.Lib\MemoryClean.Lib.csproj" />
+  </ItemGroup>
+</Project>
